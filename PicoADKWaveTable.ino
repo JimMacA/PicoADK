@@ -261,8 +261,8 @@ void loop()
     Pot2Avg = Pot2Avg - (Pot2Avg >> 4) + (Pot2Val >> 4);
 
 
-   PitchInt = Pot1Avg <<8;
-    Speed = ((Pot2Avg - 16384) <<11);
+  // PitchInt = Pot1Avg <<8;
+   // Speed = ((Pot2Avg - 16384) <<11);
 
 
 }
